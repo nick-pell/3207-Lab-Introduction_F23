@@ -6,7 +6,7 @@
 
 char randchar(){
     char letters[] = "abcdefghijklmnopqrstuvwxyz";
-    int random = rand() % 25;
+    int random = rand() % 26;
     return letters[random];
 
 
